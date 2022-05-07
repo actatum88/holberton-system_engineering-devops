@@ -1,2 +1,2 @@
 #!/bin/bash
-cp . -iname'*.html' -exec cp ..
+cp *.html . ..
