@@ -1,1 +1,1 @@
-Learning vim
+learning to code is fun!
