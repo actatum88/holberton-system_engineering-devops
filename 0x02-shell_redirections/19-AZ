@@ -1,2 +1,2 @@
 #!/bin/bash
-tr -cs A "Z" | tr -cs c "e"
+tr -cs Ac "Ze"
