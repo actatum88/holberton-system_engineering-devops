@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+a=0
+until [[ $a -eq 10 ]]
+do echo "Best School"
+let a=a+1
+done
+# "Script to loop Best School 10 times with until"

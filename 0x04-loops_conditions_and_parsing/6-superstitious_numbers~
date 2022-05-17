@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#Script that displays numbers 1 to 20 and displays 4 and then bad luck from China for 4th loop; displays 9 and then back luck from Japan for 9th loop; diplays 17 and then back luck from Italy for the 17th loop.
+a=1
+while [ "a" -le 20 ]; do
+echo "$a"
+case
+    "$a" in
+4)
+echo "bad luck from China"
+;;
+9)
+echo "bad luck from Japan"
+;;
+17)
+echo "bad luck from Italy"
+;;
+esac
+let a=a+1
+done
