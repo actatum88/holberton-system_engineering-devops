@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+for (( c=1; c<=10; c++ )); do echo "Best School" $c; done
+echo "This script is displaying "Best School" 10 times"
