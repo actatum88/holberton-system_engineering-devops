@@ -3,5 +3,5 @@
 list=$(ls)
 for OUTPUT in $list
 do
-    echo "$OUTPUT" | cut -d - -f
+    echo "$OUTPUT" | cut -d - -f "2-"
 done
