@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #Bash script to display content of current directory in specific formats.
-list =$(ls)
+list=$(ls)
 for OUTPUT in $list
 do
     echo "$OUTPUT" | cut -d - -f
