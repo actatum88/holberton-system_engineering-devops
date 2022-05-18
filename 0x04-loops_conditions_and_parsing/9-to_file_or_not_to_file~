@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Bash script that gives information about school file.
+if [ -e ./school ]

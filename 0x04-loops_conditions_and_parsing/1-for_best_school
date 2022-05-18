@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
-#script displaying Best School 10 times
-for (( c=1; c<=10; c++ )); do echo "Best School"; done
+#Bash script displaying Best School 10 times
+for (( c=1; c<=10; c++ ))
+do
+    echo "Best School"
+done
 
