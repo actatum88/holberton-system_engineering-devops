@@ -12,5 +12,5 @@ echo "good luck"
 else
 echo "Best School"
 fi
-((x++))
+((a++))
 done
