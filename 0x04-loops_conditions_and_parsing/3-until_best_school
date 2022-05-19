@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 #Script to loop Best School 10 ties with until
 a=0
-until [ $a>=109 ]
+until ((a>=10));
 do
     echo "Best School"
-    ((a++))
+    ((a++));
 done
